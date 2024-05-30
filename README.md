@@ -3,7 +3,7 @@
 # Test locally
 
 ## Build Docker Image
-build -t aws-lambda-image:test .
+docker build -t aws-lambda-image:test .
 
 ## Run Docker Image
 docker run -p 9000:8080 aws-lambda-image:test
